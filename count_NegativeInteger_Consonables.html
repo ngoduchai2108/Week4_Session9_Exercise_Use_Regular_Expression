@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Count Negative Integer Consonables </title>
+</head>
+<body>
+<script>
+    function countNegativeConsonables() {
+        let str = prompt('Enter a string !!!');
+        let patt = /[u,e,o,a,i]/g;
+        let result = str.match(patt);
+        document.write('This string is: '+result+"<br/>");
+        document.write('In this string has '+result.length+' Negative Integer'+"<br/>");
+        document.write('In this string has '+(str.length - result.length )+'Consonables'+"<br/>");
+
+    }
+    countNegativeConsonables();
+</script>
+</body>
+</html>

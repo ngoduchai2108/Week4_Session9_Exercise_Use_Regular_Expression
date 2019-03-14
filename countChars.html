@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Count Chars</title>
+</head>
+<body>
+<script>
+    function countChars() {
+        let str = prompt("Enter a string !!!");
+        // let chars = prompt("Enter a chars for check!!!");
+        let patt = /ain/g;
+        let result = str.match(patt);
+        document.write('In This String has '+result.length + 'chars ain.');
+    }
+    countChars();
+</script>
+</body>
+</html>
